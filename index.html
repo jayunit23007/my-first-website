@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Startup portfolio for a product-focused designer and founder."
+    />
+    <title>Nova Lane | Product Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav container" aria-label="Main navigation">
+        <a href="#top" class="brand">Nova<span>Lane</span></a>
+
+        <button class="nav-toggle" aria-label="Toggle menu" type="button">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <div class="nav-menu">
+          <a href="#about">About</a>
+          <a href="#work">Work</a>
+          <a href="#services">Services</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow">Product designer • startup builder</p>
+            <h1>Building clear ideas into standout digital experiences.</h1>
+            <p class="lead">
+              I help startups turn messy opportunities into focused products,
+              compelling brands, and sustainable growth.
+            </p>
+
+            <div class="hero-actions">
+              <a class="button primary" href="#work">View Projects</a>
+              <a class="button secondary" href="#contact">Let’s Talk</a>
+            </div>
+
+            <ul class="hero-stats">
+              <li><strong>6+</strong><span>Years</span></li>
+              <li><strong>24</strong><span>Launches</span></li>
+              <li><strong>92%</strong><span>Retention</span></li>
+            </ul>
+          </div>
+
+          <div class="hero-visual" aria-label="Profile portrait">
+            <div class="portrait">
+              <div class="portrait-ring"></div>
+              <div class="portrait-badge">NL</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">About</p>
+            <h2>Focused on strategy, clarity, and momentum.</h2>
+          </div>
+
+          <div class="about-grid">
+            <div class="about-copy">
+              <p>
+                I design and build lean digital products for early-stage teams
+                that need more than pretty interfaces. I bring product thinking,
+                UX research, and storytelling together to create experiences that
+                feel sharp and perform under pressure.
+              </p>
+              <p>
+                From discovery to launch, I help startups reduce friction, refine
+                positioning, and turn promising ideas into confident customer
+                experiences.
+              </p>
+            </div>
+
+            <div class="about-card">
+              <h3>Core strengths</h3>
+              <ul>
+                <li>Product strategy</li>
+                <li>UX/UI design</li>
+                <li>Brand systems</li>
+                <li>Landing pages</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="work" class="section section-alt">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Selected work</p>
+            <h2>Portfolio projects built for fast-moving teams.</h2>
+          </div>
+
+          <div class="project-grid">
+            <article class="project-card">
+              <div class="project-visual one"></div>
+              <div class="project-body">
+                <span class="tag">SaaS</span>
+                <h3>SignalFlow</h3>
+                <p>
+                  Reframed a data platform with a clearer onboarding flow and a
+                  simpler product story for growth-focused users.
+                </p>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <div class="project-visual two"></div>
+              <div class="project-body">
+                <span class="tag">Fintech</span>
+                <h3>North Ledger</h3>
+                <p>
+                  Designed a trust-building dashboard experience that helped a
+                  fintech product feel more approachable and credible.
+                </p>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <div class="project-visual three"></div>
+              <div class="project-body">
+                <span class="tag">Health</span>
+                <h3>Bloom Care</h3>
+                <p>
+                  Built a patient-first experience for a health startup that
+                  needed clearer communication and smoother journeys.
+                </p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="services" class="section">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Services</p>
+            <h2>Support for the moments that matter most.</h2>
+          </div>
+
+          <div class="service-grid">
+            <article class="service-card">
+              <h3>UX Strategy</h3>
+              <p>
+                Product discovery, positioning workshops, and customer journey
+                insight that align your roadmap with real user needs.
+              </p>
+            </article>
+
+            <article class="service-card">
+              <h3>Design Systems</h3>
+              <p>
+                Scalable interfaces and reusable patterns that keep teams
+                consistent as the product grows.
+              </p>
+            </article>
+
+            <article class="service-card">
+              <h3>Launch Support</h3>
+              <p>
+                High-converting landing pages, messaging refinement, and polish
+                for product announcements and onboarding moments.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section cta-section">
+        <div class="container cta-box">
+          <div>
+            <p class="eyebrow">Let’s work together</p>
+            <h2>Need a sharper product story or a cleaner launch?</h2>
+          </div>
+          <a class="button primary" href="mailto:hello@novalane.design">hello@novalane.design</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>© <span id="year"></span> Nova Lane</p>
+        <div class="footer-links">
+          <a href="#about">About</a>
+          <a href="#work">Work</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
